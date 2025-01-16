@@ -1,0 +1,11 @@
+.sidebar {
+    padding: 15px;
+    width: 260px;
+    background: linear-gradient(135deg, #00264d, #113e86); /* Azul degradado */
+    color: white;
+    height: 100%;
+    position: fixed;
+    top: 70px; /* Debajo de la barra superior */
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
