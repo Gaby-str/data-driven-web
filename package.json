@@ -2,7 +2,7 @@
   "name": "data-driven",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Gaby-str.github.io/data-driven-web/",
+  "homepage": "https://Gaby-str.github.io/data-driven-web/build/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
