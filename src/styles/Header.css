@@ -10,10 +10,11 @@
     box-sizing: border-box; /* para que el padding sea interno y no externo */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    max-height: 75px;
 }
 
 .topbar-logo {
-    height: 70px; /* Altura fija */
+    height: 85%; /* Altura fija */
     width: auto; /* Mantiene la proporción */
 }
 

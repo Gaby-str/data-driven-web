@@ -2,7 +2,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from '../sections/Header.jsx'
 import Sidebar from '../sections/Sidebar.jsx'
-import Empty from '../sections/Empty.jsx'
+import ConBanc from '../modules/conciliacionesBancarias/pages/ConciliacionesBancarias.jsx'
+import ConsultaInformes from '../modules/ConsultaInformes/pages/ConsultaInformes.jsx';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 
 function MainIndex() {
   return (
@@ -14,8 +20,8 @@ function MainIndex() {
           <Sidebar />
           <div className='contenedorApp'>
               <Routes>
-                <Route path='/' element={<Empty />} />
-                <Route path='/xd' element={<p> wenas </p>} />
+                <Route path='/conciliaciones' element={<ConBanc />} />
+                <Route path='/informes' element={<ConsultaInformes />} />
               </Routes>
           </div>
 

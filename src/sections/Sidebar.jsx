@@ -8,6 +8,7 @@ const apps = [
     { id: 'btn-flujo', name: 'Contrataciones', path: '/wenas', icon: 'fa-solid fa-user-group' },
     { id: 'btn-rentas', name: 'Parking Automático', path: '/parking', icon: 'fa-solid fa-car' },
     { id: 'btn-inventario', name: 'Estado Financiero', path: '/finanzas', icon: 'fa-solid fa-box' },
+    { id: 'btn-informes', name: 'Consulta de informes', path: '/informes', icon: 'fa-solid fa-user-tie' },
     { id: 'btn-conciliaciones', name: 'Conciliaciones Bancarias', path: '/conciliaciones', icon: 'fa-solid fa-inbox' },
     { id: 'btn-personal', name: 'Gestión de Personal', path: '/personal', icon: 'fa-solid fa-user-tie' },
 ];
