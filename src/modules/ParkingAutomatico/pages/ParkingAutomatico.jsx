@@ -2,6 +2,7 @@ import { useState } from 'react';
 import '../styles/ParkingAutomatico.css';
 
 const pdf_path = process.env.REACT_APP_PDF_PATH;
+//const pdf_path = '......../pdf/'
 const pds_list = [
     {path: pdf_path + 'Comparativa de Diseños - Justificacion Tecnica.pdf'},
     {path: pdf_path + 'Componentes y Justificacion Tecnica (fase piloto).pdf'},
